@@ -39,7 +39,7 @@ This is a **creativity challenge**. We provide you with the CARLA Simulator and 
 
 # 💻 Requirements
 
-- A rather **powerfull GPU** is required to run CARLA
+- A rather **powerful GPU** is required to run CARLA
 - **Programming languages**
     - Recommended: Python or C++
     - Other options: C, C#, JavaScript, Rust
@@ -62,6 +62,7 @@ This is a **creativity challenge**. We provide you with the CARLA Simulator and 
         sudo apt-get update
         sudo apt-get install ecal
         ```
+
     - 🪟 Windows:
         - Download the latest release from https://eclipse-ecal.github.io/ecal/_download_archive/download_archive.html
 
