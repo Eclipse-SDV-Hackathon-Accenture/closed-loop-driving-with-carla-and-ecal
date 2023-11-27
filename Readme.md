@@ -69,11 +69,25 @@ This is a **creativity challenge**. We provide you with the CARLA Simulator and 
 2. Setup CARLA:
     - https://carla.readthedocs.io/en/latest/start_quickstart/
 
-3. Setup CARLA <-> eCAL Bridge
-    - TBD
+3. Setup example repositories:
+   ```bash
+   python -m venv .venv
+   
+   # on Linux
+   source .venv/bin/activate
+   # on Windows
+   .venv/Scripts/activate.ps1
+   
+   pip install -r ./requirements.txt
+   ```
+   Then go ahead, download the eCAL Python wheel for your platform from the Release page, corresponding to your Python version and operating system, and install it via pip, too. If you are on Windows, using Python 3.9, 64bit, your wheel would be `ecal5-5.12.1-cp39-cp39-win_amd64.whl`.
 
-4. Setup Foxglove Studio
-    - TBD
+   ```
+   pip install ./ecal5-5.12.1-cp39-cp39-win_amd64.whl
+   ```
+   
+   This gives you an environment that has all relevant components to start experimenting with eCAL and Carla.
+   
 
 
 # 👀 All necessary links

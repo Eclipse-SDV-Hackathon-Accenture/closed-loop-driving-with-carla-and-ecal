@@ -1,0 +1,3 @@
+ecal_camera_send @ git+https://github.com/eclipse-ecal/ecal-camera-samples.git@main#subdirectory=ecal_camera_snd_python
+ecal-foxglove-bridge @ git+https://github.com/eclipse-ecal/ecal-foxglove-bridge.git
+ecal-algorithm-samples @ git+https://github.com/eclipse-ecal/ecal-algorithm-samples.git
